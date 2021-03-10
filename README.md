@@ -17,6 +17,8 @@ services:
       - APPNAME=puddletag
       - GUAC_USER=abc #optional
       - GUAC_PASS=5f4dcc3b5aa765d61d8327deb882cf99
+      - UMASK_SET=022 #optional
+      - $CLI_ARGS= #optional
     volumes:
       - /path/to/config:/config
     ports:
