@@ -22,4 +22,4 @@ s6-setuidgid abc
 s6-env DISPLAY=:1 HOME=/config
 
 # Execute Puddletag
-/opt/puddletag/puddletag
+/opt/puddletag/puddletag $CLI_ARGS
