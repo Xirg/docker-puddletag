@@ -2,6 +2,7 @@
 
 # make our folders
 #mkdir -p /config/.config/puddletag
+mkdir -p /music
 
 # set webserver port on first install
 #[[ ! -f /config/.config/puddletag/server-config.txt ]] && \
@@ -10,4 +11,5 @@
 # permissions
 chown -R abc:abc \
 	/config \
+	/music \
 	/opt/puddletag
