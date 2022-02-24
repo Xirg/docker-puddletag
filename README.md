@@ -8,7 +8,7 @@ puddletag based on linuxservers baseimage-guacgui
 version: "2"
 services:
   puddletag:
-    image: Xirg/docker-puddletag
+    image: xirg/docker-puddletag
     container_name: puddletag
     environment:
       - PUID=1000
